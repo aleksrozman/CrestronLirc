@@ -1,0 +1,36 @@
+begin 
+ button = Sample
+ prog = irexec
+ config = echo "Sample"
+end
+begin
+ prog = vlc
+ button = OK
+ config = key-play-pause
+end
+begin
+ prog = vlc
+ button = Up
+ config = key-jump+long
+end
+begin
+ prog = vlc
+ button = Down
+ config = key-jump-long
+end
+begin
+ prog = vlc
+ button = Left
+ config = key-jump-short
+end
+begin
+ prog = vlc
+ button = Right
+ config = key-jump+short
+end
+begin
+ prog = vlc
+ button = Home
+ config = key-toggle-fullscreen
+end
+
